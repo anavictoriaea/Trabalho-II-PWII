@@ -7,8 +7,7 @@ function dia() {
   let amanha = diaHoje + 1;
   let data = hoje.getDate() + "/" + hoje.getMonth() + 1 + "/" + hoje.getFullYear();
   saida.innerHTML = <p>Hoje é: ${data} </p>;
-  saida.innerHTML = <p>${diasDaSemana[diaHoje]}</p>;
-  saida.innerHTML = <p>Amanhã será ${diasDaSemana[amanha]}</p>;
-  saida.innerHTML = <p>Ontem foi ${diasDaSemana[ontem]}</p>;
-
+  saida.innerHTML += <h2>${diasDaSemana[diaHoje]}</h2>;
+  saida.innerHTML += <p>Amanhã será ${diasDaSemana[amanha]}</p>;
+  saida.innerHTML += <p>Ontem foi ${diasDaSemana[ontem]}</p>;
 }
