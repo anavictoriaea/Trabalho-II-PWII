@@ -7,6 +7,6 @@ function media(){
     alert("Digite os dados corretamente.")
   } else {
     let med = (s1 + s2) / 2;
-    document.getElementById("mostrar").textContent = "Funcionário: " + nome + ". Média: $" + med;
+    document.getElementById("mostrar").textContent = "Funcionário: " + nome + ". Média salarial: $" + med;
   }
 }
